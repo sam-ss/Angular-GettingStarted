@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
     template : '<div> <h1>{{pageTitle}} </h1><div> <pm-products></pm-products></div></div>'
 })
 export class AppComponent {
-  pageTitle: string = 'Angular: Getting Started';
+  pageTitle: String = 'Angular: Getting Started';
 }
